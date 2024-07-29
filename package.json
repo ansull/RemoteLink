@@ -6,9 +6,9 @@
   "scripts": {
     "start": "nodemon backend/server.js --ignore client",
     "server":"nodemon backend/server.js",
-    "build":"npm install && npm install --prefix frontend && npm run build --prefix frontend"
+    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
-  "author": "Harsh",
+  "author": "Ansul",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
