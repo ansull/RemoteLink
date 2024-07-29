@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "nodemon backend/server.js --ignore client",
-    "server":"nodemon backend/server.js",
-    "build":"npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
+    "server": "nodemon backend/server.js",
+    "build": "npm install --legacy-peer-deps && npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend"
   },
   "author": "Ansul",
   "license": "ISC",
@@ -17,7 +17,7 @@
     "express-async-handler": "^1.2.0",
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.3.2",
-    "nodemon": "^2.0.22",
+    "nodemon": "^3.1.4",
     "socket.io": "^4.7.1"
   }
 }
